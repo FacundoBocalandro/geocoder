@@ -1,0 +1,26 @@
+{
+  "name": "geocoder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.ts",
+  "bin": {
+    "geocode": "./bin/index.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/request": "^2.48.8",
+    "@types/yargs": "^17.0.22",
+    "dotenv": "^16.0.3",
+    "request": "^2.88.2",
+    "yargs": "^17.7.1"
+  }
+}
